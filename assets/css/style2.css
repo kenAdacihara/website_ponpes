@@ -1,0 +1,99 @@
+body{
+    font-family: "Monstserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    padding: 30px;
+}
+
+/* CSS untuk prestasi */
+#prestasi{
+    min-height: 250px;
+}
+
+.section-item{
+    margin: 70px 0;
+    box-shadow: 0 0 25px #ddd;
+    min-height: 260px;
+    overflow: hidden;
+}
+
+.section-item-thumbnail{
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    max-height: 100%;
+}
+
+.section-title{
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.section-title h2{
+    position: relative;
+    display: inline-block;
+    margin-top: 60px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #15477A;
+    font-weight: 600;
+}
+
+.section-title h2:after{
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 3px;
+    background-color: #F2C808;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-item-title{
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.section-item-title h3{
+    font-size: 18px;
+    color: #15477A;
+    line-height: 25px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.section-item-title span{
+    font-size: 12px;
+    color: #666;
+    font-weight: 500;
+}
+
+.section-item-title span:first-of-type{
+    margin-right: 15px;
+}
+
+.section-item-body p{
+    font-size: 12px;
+    line-height: 25px;
+    color: #666;
+}
+
+.image {
+    display: block; /* Mengubah gambar menjadi blok untuk dapat menerapkan margin otomatis */
+    margin: 0 auto; /* Menempatkan gambar di tengah secara horizontal */
+    width: 30%; /* Mengatur lebar maksimum gambar agar tidak melebihi lebar container */
+    height: auto; /* Menyesuaikan tinggi gambar secara proporsional */
+    margin-bottom: 50px;
+}
+
+.image-2{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    margin-bottom: 50px;
+}
